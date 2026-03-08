@@ -1,0 +1,39 @@
+# --- Identity ---
+name: "social-media-campaign"
+display_name: "Social Media Campaign"
+description: "Multi-platform content creation: briefing, content generation, caption writing, and scheduling"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/social-media-campaign"
+
+# --- Discovery (Hub) ---
+category: "content-creator"
+tags:
+  - "social-media"
+  - "campaign"
+  - "content"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 2
+  prompts: 4
+  workflows: 1
+  services: 0
+  sources: 2
+  documents: 0
+  assets: 1
+  total: 10
