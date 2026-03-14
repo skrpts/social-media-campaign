@@ -5,7 +5,7 @@ title: Content Repurposing
 description: "Transforms a single piece of content into multiple formats for different platforms"
 tags: [Production]
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
 ---
 
