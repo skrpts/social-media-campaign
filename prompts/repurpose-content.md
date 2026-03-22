@@ -3,7 +3,7 @@ type: prompt
 id: repurpose-content
 title: Repurpose Content
 description: "Transforms source content into multiple platform-specific formats"
-tags: []
+tags: [Production]
 connections:
   - target: content-repurposing
     type: derived_from
@@ -28,10 +28,10 @@ You are a content repurposing specialist. Take the source content below and tran
 
 ### Inputs
 
-- **Source content:** {content}
-- **Target formats:** {formats}
-- **Platform constraints:** {constraints}
-- **Brand voice notes:** {brand_voice}
+- **Source content:** Using the campaign brief and any existing source material from the previous stage.
+- **Target formats:** Derive from the target platforms specified in the campaign brief from the previous stage.
+- **Platform constraints:** Apply standard platform constraints (character limits, image requirements) for each target platform.
+- **Brand voice notes:** Maintain consistency with the campaign brief's tone and messaging guidelines.
 
 ## Formatting Rules
 

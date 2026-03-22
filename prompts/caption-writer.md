@@ -30,10 +30,10 @@ Provide three caption options for each piece of visual content, varying in tone:
 
 ### Inputs
 
-- **Visual content description:** {visual_description}
-- **Platform:** {platform}
-- **Campaign context:** {campaign}
-- **Brand voice notes:** {brand_voice}
+- **Visual content description:** Using the visual content descriptions from the generated posts in the previous stage.
+- **Platform:** Using the target platforms from Stage 2.
+- **Campaign context:** Using the campaign topic from Stage 1.
+- **Brand voice notes:** Maintain consistency with the campaign brief's tone and messaging guidelines.
 
 ## Formatting Rules
 

@@ -35,10 +35,10 @@ For each post, provide:
 
 ### Inputs
 
-- **Source content:** {content}
-- **Target platforms:** {platforms}
-- **Campaign context:** {campaign}
-- **Key message:** {key_message}
+- **Source content:** Using the campaign brief produced in the previous stage.
+- **Target platforms:** {{input.target_platforms}}
+- **Campaign context:** Using the campaign topic from Stage 1.
+- **Key message:** {{input.key_messages}}
 
 ## Formatting Rules
 
