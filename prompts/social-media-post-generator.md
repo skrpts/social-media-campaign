@@ -35,9 +35,9 @@ For each post, provide:
 
 ### Inputs
 
-- **Source content:** Using the campaign brief produced in the previous stage.
+- **Source content:** {{steps.create-content-brief.output}}
 - **Target platforms:** {{input.target_platforms}}
-- **Campaign context:** Using the campaign topic from Stage 1.
+- **Campaign context:** {{input.campaign_topic}}
 - **Key message:** {{input.key_messages}}
 
 ## Formatting Rules
