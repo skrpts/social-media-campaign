@@ -33,11 +33,11 @@ You are a content strategist. Create a detailed content brief for a writer based
 
 ### Inputs
 
-- **Topic:** {{input.campaign_topic}}
-- **Target keyword(s):** Derive relevant keywords from the campaign topic and key messages.
-- **Audience persona:** {{input.target_audience}}
-- **Desired length:** Determine based on the campaign scope and platform requirements.
-- **Reference URLs:** Include any relevant references from the campaign context.
+- **Topic:** {{steps.generate-content-ideas.output}}
+- **Target keyword(s):** Use the target keyword from the selected topic above
+- **Audience persona:** {{input.target_audience}} in the {{input.industry_niche}} space
+- **Desired length:** {{input.target_length}}
+- **Reference URLs:** Include any relevant reference URLs if available
 
 ## Formatting Rules
 

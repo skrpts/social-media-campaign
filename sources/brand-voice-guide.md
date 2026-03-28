@@ -9,7 +9,7 @@ connections: []
 
 ## Purpose
 
-Provides the reference standards for brand voice across social media platforms. All published content should align with these guidelines while adapting to each platform's native tone.
+Provides the reference standards for brand voice that the editorial review skill checks content against. All published content should align with these guidelines.
 
 ## Voice Attributes
 
@@ -29,17 +29,18 @@ Provides the reference standards for brand voice across social media platforms. 
 - **Practical** — we focus on actionable advice, not abstract theory
 - **Honest** — we acknowledge limitations and trade-offs rather than overselling
 
-### Platform Adaptations
-
-- **LinkedIn:** Slightly more formal, thought-leadership tone, data-driven
-- **Twitter/X:** Concise and punchy, conversational, timely
-- **Instagram:** Warm and visual, storytelling-focused, aspirational
-- **Facebook:** Community-oriented, question-driven, shareable
-
 ### Language Rules
 
 - Use active voice wherever possible
 - Use British English spelling and conventions
 - Avoid corporate buzzwords (synergy, leverage, paradigm shift)
+- Avoid hedging language (might, perhaps, arguably) unless genuinely uncertain
 - Use "you" to address the reader directly
-- Keep sentences short and scannable on mobile
+- Keep sentences under 25 words on average
+- Define technical terms on first use
+
+### Examples
+
+**On-brand:** "This approach cuts your build time by 40%. Here's how to set it up."
+
+**Off-brand:** "It could potentially be argued that this methodology might offer some improvements to build performance in certain scenarios."
