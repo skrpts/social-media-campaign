@@ -3,7 +3,7 @@ type: prompt
 id: repurpose-content
 title: Repurpose Content
 description: "Transforms source content into multiple platform-specific formats"
-tags: [Production, writing:content, planning:campaign]
+tags: [Production, Campaign, Content]
 connections:
   - target: content-repurposing
     type: derived_from

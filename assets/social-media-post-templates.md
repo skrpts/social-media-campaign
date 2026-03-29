@@ -3,7 +3,7 @@ type: asset
 id: social-media-post-templates
 title: Social Media Post Templates
 description: "Ready-to-use post templates for LinkedIn, Twitter, and Instagram"
-tags: [Production, writing:content, planning:campaign]
+tags: [Production, Campaign, Content]
 connections: []
 ---
 

@@ -3,7 +3,7 @@ type: prompt
 id: caption-writer
 title: Caption Writer
 description: "Writes engaging captions for visual social media content"
-tags: [Customer-Facing, writing:copy, writing:content]
+tags: [Customer-Facing, Campaign, Writing]
 connections: []
 metadata:
   output_format: markdown
