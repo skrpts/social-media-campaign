@@ -3,7 +3,7 @@ type: workflow
 id: social-media-campaign
 title: Social Media Campaign
 description: "Multi-platform content creation: briefing, content generation, caption writing, and scheduling"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, writing:copy, writing:content]
 connections:
   - target: content-briefing
     type: uses
