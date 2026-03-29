@@ -17,6 +17,10 @@ connections:
     type: uses
   - target: caption-writer
     type: uses
+  - target: content-ideation
+    type: uses
+  - target: headline-writing
+    type: uses
   - target: llm-service
     type: runs_on
 metadata:
