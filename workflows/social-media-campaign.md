@@ -24,14 +24,14 @@ connections:
   - target: llm-service
     type: runs_on
   - target: brand-voice-guide
+    type: references
   - target: social-media-platform-guide
+    type: references
   - target: social-media-post-templates
+    type: references
 metadata:
   estimated_duration: "5-10 minutes"
   trigger: manual
-    type: references
-    type: references
-    type: references
 ---
 
 ## Overview
