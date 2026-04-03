@@ -29,6 +29,8 @@ connections:
     type: references
   - target: social-media-post-templates
     type: references
+  - target: image-briefing
+    type: uses
 metadata:
   estimated_duration: "5-10 minutes"
   trigger: manual
