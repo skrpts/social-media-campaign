@@ -9,14 +9,6 @@ connections:
     type: uses
   - target: content-repurposing
     type: uses
-  - target: create-content-brief
-    type: uses
-  - target: repurpose-content
-    type: uses
-  - target: social-media-post-generator
-    type: uses
-  - target: caption-writer
-    type: uses
   - target: content-ideation
     type: uses
   - target: headline-writing
