@@ -30,10 +30,10 @@ Provide three caption options for each piece of visual content, varying in tone:
 
 ### Inputs
 
-- **Visual content description:** Using the visual content descriptions from the generated posts: {{steps.social-media-post-generator.output}}
+- **Visual content description:** Using the visual content descriptions from the generated posts: {{steps.Content Repurposing.output}}
 - **Platform:** {{input.target_platforms}}
 - **Campaign context:** {{input.campaign_topic}}
-- **Brand voice notes:** Maintain consistency with the campaign brief's tone and messaging guidelines from: {{steps.create-content-brief.output}}
+- **Brand voice notes:** Maintain consistency with the campaign brief's tone and messaging guidelines from: {{steps.Content Briefing.output}}
 
 ## Formatting Rules
 
