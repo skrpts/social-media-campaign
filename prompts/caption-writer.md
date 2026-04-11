@@ -4,6 +4,19 @@ id: caption-writer
 title: Caption Writer
 description: "Writes engaging captions for visual social media content"
 tags: [Customer-Facing, Campaign, Writing]
+inputs:
+  target_platforms:
+    label: "Target Platforms"
+    description: "Platforms to create content for"
+    example: "LinkedIn, Twitter"
+    required: true
+    type: text
+  campaign_topic:
+    label: "Campaign Topic"
+    description: "The topic or theme for the campaign"
+    example: "Product launch for new AI features"
+    required: true
+    type: text
 connections: []
 metadata:
   output_format: markdown
