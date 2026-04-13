@@ -31,16 +31,12 @@ execution:
     step_type: "generation"
   - skill: "content-repurposing"
     step_type: "generation"
-    input_from: "content-briefing"
   - skill: "content-ideation"
     step_type: "generation"
-    input_from: "content-repurposing"
   - skill: "headline-writing"
     step_type: "generation"
-    input_from: "content-ideation"
   - skill: "image-briefing"
     step_type: "generation"
-    input_from: "headline-writing"
 ---
 
 ## Overview
