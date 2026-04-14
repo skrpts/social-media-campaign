@@ -26,6 +26,13 @@ connections:
 metadata:
   estimated_duration: "5-10 minutes"
   trigger: manual
+output_step: "image-briefing"
+composite_steps:
+  - "content-briefing"
+  - "content-repurposing"
+  - "content-ideation"
+  - "headline-writing"
+  - "image-briefing"
 execution:
   - skill: "content-briefing"
     step_type: "generation"
