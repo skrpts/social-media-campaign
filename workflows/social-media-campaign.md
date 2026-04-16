@@ -36,14 +36,20 @@ composite_steps:
 execution:
   - skill: "content-briefing"
     step_type: "generation"
+    context:
+      target_audience: ""
   - skill: "content-repurposing"
     step_type: "generation"
   - skill: "content-ideation"
     step_type: "generation"
+    context:
+      content_context: ""
   - skill: "headline-writing"
     step_type: "generation"
   - skill: "image-briefing"
     step_type: "generation"
+    context:
+      brand_guidelines: ""
 ---
 
 ## Overview
