@@ -13,6 +13,8 @@ connections:
     type: uses
   - target: headline-writing
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: brand-voice-guide
@@ -26,13 +28,14 @@ connections:
 metadata:
   estimated_duration: "5-10 minutes"
   trigger: manual
-output_step: "image-briefing"
+output_step: "language-polish"
 composite_steps:
   - "content-briefing"
   - "content-repurposing"
   - "content-ideation"
   - "headline-writing"
   - "image-briefing"
+  - "language-polish"
 execution:
   - skill: "content-briefing"
     step_type: "generation"
@@ -50,6 +53,8 @@ execution:
     step_type: "generation"
     context:
       brand_guidelines: ""
+  - skill: "language-polish"
+    step_type: "content"
 ---
 
 ## Overview

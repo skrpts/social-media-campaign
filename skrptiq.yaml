@@ -3,7 +3,7 @@ id: "995ce659-5796-4e90-83d9-b3d0f1598897"
 name: "social-media-campaign"
 display_name: "Social Media Campaign"
 description: "Multi-platform content creation: briefing, content generation, caption writing, and scheduling"
-version: "1.1.10"
+version: "1.1.11"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -31,11 +31,11 @@ requires:
 
 # --- Contents ---
 contents:
-  skills: 5
-  prompts: 7
+  skills: 6
+  prompts: 8
   workflows: 1
   services: 1
   sources: 2
   documents: 0
   assets: 1
-  total: 17
+  total: 19
