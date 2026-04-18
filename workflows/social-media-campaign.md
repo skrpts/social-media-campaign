@@ -43,6 +43,7 @@ execution:
       target_audience: ""
   - skill: "content-repurposing"
     step_type: "generation"
+    prompt: "repurpose-content"
   - skill: "content-ideation"
     step_type: "generation"
     context:
