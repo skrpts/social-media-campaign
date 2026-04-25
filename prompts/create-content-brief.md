@@ -4,6 +4,44 @@ id: create-content-brief
 title: "Create Content Brief"
 description: "Creates a structured brief for writers and content producers"
 tags: [Production, Content, Planning]
+inputs:
+  campaign_topic:
+    label: "Campaign Topic"
+    description: "The topic, product, or event to create content for"
+    example: "Launch of our new AI-powered analytics dashboard"
+    required: true
+    type: text
+  target_audience:
+    label: "Target Audience"
+    description: "Who this campaign is for"
+    example: "Marketing managers at mid-size SaaS companies"
+    required: true
+    type: text
+  campaign_goals:
+    label: "Campaign Goals"
+    description: "What you want this campaign to achieve"
+    example: "Drive sign-ups for the free trial, build awareness in the analytics space"
+    required: false
+    type: text
+inputs:
+  campaign_topic:
+    label: "Campaign Topic"
+    description: "The topic, product, or event to create content for"
+    example: "Launch of our new AI-powered analytics dashboard"
+    required: true
+    type: text
+  target_audience:
+    label: "Target Audience"
+    description: "Who this campaign is for"
+    example: "Marketing managers at mid-size SaaS companies"
+    required: true
+    type: text
+  campaign_goals:
+    label: "Campaign Goals"
+    description: "What you want this campaign to achieve"
+    example: "Drive sign-ups for the free trial, build awareness in the analytics space"
+    required: false
+    type: text
 connections:
   - target: content-briefing
     type: derived_from
@@ -21,6 +59,18 @@ Drives the content briefing skill.
 You are a content editor. Create a structured content brief from the topic and context below.
 
 ### Topic
+
+**Campaign:** {{input.campaign_topic}}
+**Audience:** {{input.target_audience}}
+**Goals:** {{input.campaign_goals}}
+
+### Context
+
+**Campaign:** {{input.campaign_topic}}
+**Audience:** {{input.target_audience}}
+**Goals:** {{input.campaign_goals}}
+
+### Context
 
 {{steps.previous.output}}
 
