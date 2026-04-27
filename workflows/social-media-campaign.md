@@ -38,6 +38,7 @@ composite_steps:
   - "language-polish"
 execution:
   - skill: "content-briefing"
+    prompt: "create-content-brief"
     step_type: "generation"
     context:
       target_audience: ""
@@ -45,16 +46,20 @@ execution:
     step_type: "generation"
     prompt: "repurpose-content"
   - skill: "content-ideation"
+    prompt: "generate-content-ideas"
     step_type: "generation"
     context:
       content_context: ""
   - skill: "headline-writing"
+    prompt: "write-headlines"
     step_type: "generation"
   - skill: "image-briefing"
+    prompt: "create-image-brief"
     step_type: "generation"
     context:
       brand_guidelines: ""
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 

@@ -17,7 +17,9 @@ inputs:
     example: "Product launch for new AI features"
     required: true
     type: text
-connections: []
+connections:
+  - target: headline-writing
+    type: derived_from
 metadata:
   output_format: markdown
   prompt_type: task
