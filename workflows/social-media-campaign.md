@@ -58,9 +58,13 @@ execution:
     step_type: "generation"
     context:
       brand_guidelines: ""
+      audience_profile: ""
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
 ---
 
 ## Overview
