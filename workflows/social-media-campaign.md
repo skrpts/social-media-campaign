@@ -41,7 +41,7 @@ execution:
     prompt: "create-content-brief"
     step_type: "generation"
     context:
-      target_audience: ""
+      target_audience: "General professional audience"
   - skill: "content-repurposing"
     step_type: "generation"
     prompt: "repurpose-content"
@@ -49,7 +49,7 @@ execution:
     prompt: "generate-content-ideas"
     step_type: "generation"
     context:
-      content_context: ""
+      content_context: "No additional context"
   - skill: "headline-writing"
     prompt: "write-headlines"
     step_type: "generation"
@@ -57,14 +57,14 @@ execution:
     prompt: "create-image-brief"
     step_type: "generation"
     context:
-      brand_guidelines: ""
-      audience_profile: ""
+      brand_guidelines: "No specific brand guidelines"
+      audience_profile: "General professional audience"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
 ---
 
 ## Overview
