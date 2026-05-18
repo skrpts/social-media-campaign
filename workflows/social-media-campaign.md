@@ -50,6 +50,10 @@ execution:
     step_type: "generation"
     context:
       content_context: "No additional context"
+    bindings:
+      source_content:
+        from_step: "Content Repurposing"
+        field: output
   - skill: "headline-writing"
     prompt: "write-headlines"
     step_type: "generation"
