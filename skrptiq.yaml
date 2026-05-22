@@ -3,7 +3,7 @@ id: "995ce659-5796-4e90-83d9-b3d0f1598897"
 name: "social-media-campaign"
 display_name: "Social Media Campaign"
 description: "Multi-platform content creation: briefing, content generation, caption writing, and scheduling"
-version: "1.1.23"
+version: "1.1.25"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -17,9 +17,9 @@ repository: "https://github.com/skrpts/social-media-campaign"
 # --- Discovery (Hub) ---
 category: "content-creator"
 tags:
-  - "social-media"
   - "campaign"
   - "content"
+  - "social-media"
 
 # --- Security & Access ---
 requires:
