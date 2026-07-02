@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.29
+GH#745 — declare per-step `output: {name, type}` on every execution step (brief/text, repurposed_content/text, ideas/list, headlines/list, image_brief/text, polished_posts/text). Lights up the #744 rich flow-map with named, typed outputs. Content-only; no bindings or logic changes.
+
 ## v1.1.28
 GH#645 Row 3 final — re-pin 6 prompt-deps to the new v1.0.2/v1.0.3 versions that now expose `nodes[].content` via /api/shared/<slug>/<v>/metadata (per GH#651 endpoint extension + d1Execute dual-mode fix). Engine validator's dep-aware loop-body `{{loop.item}}` interpolation check + binding from_step resolution now pass through deps for this consumer. No content changes; identity + dep-version repin only.
 

@@ -40,14 +40,17 @@ execution:
   - skill: "content-briefing"
     prompt: "create-content-brief"
     step_type: "generation"
+    output: { name: "brief", type: "text" }
     context:
       target_audience: "General professional audience"
   - skill: "content-repurposing"
     step_type: "generation"
     prompt: "repurpose-content"
+    output: { name: "repurposed_content", type: "text" }
   - skill: "content-ideation"
     prompt: "generate-content-ideas"
     step_type: "generation"
+    output: { name: "ideas", type: "list" }
     context:
       content_context: "No additional context"
     bindings:
@@ -57,15 +60,18 @@ execution:
   - skill: "headline-writing"
     prompt: "write-headlines"
     step_type: "generation"
+    output: { name: "headlines", type: "list" }
   - skill: "image-briefing"
     prompt: "create-image-brief"
     step_type: "generation"
+    output: { name: "image_brief", type: "text" }
     context:
       brand_guidelines: "No specific brand guidelines"
       audience_profile: "General professional audience"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_posts", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
