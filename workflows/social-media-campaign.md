@@ -121,7 +121,7 @@ Invoke the **caption-writer** prompt to produce captions for any visual content 
 
 Manual review step. Collate all posts and captions, review for consistency, and schedule according to platform best practices (see social media platform guide for optimal posting times).
 
-**Output:** Finalised campaign content with scheduled publication times.
+**Output:** Finalized campaign content with scheduled publication times.
 
 ## Error Handling
 
@@ -145,14 +145,14 @@ Manual review step. Collate all posts and captions, review for consistency, and 
 | Campaign brief | Campaign brief with per-platform content requirements |
 | Draft posts for each target platform | Draft posts for each target platform |
 | Captions matched to visual assets | Captions matched to visual assets |
-| Finalised campaign content | Finalised campaign content with scheduled publication times |
+| Finalized campaign content | Finalized campaign content with scheduled publication times |
 
 ## Setup
 
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes
