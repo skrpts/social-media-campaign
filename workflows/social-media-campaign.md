@@ -13,6 +13,8 @@ connections:
     type: uses
   - target: headline-writing
     type: uses
+  - target: caption-generator
+    type: uses
   - target: language-polish
     type: uses
   - target: llm-service
@@ -35,6 +37,7 @@ composite_steps:
   - "content-ideation"
   - "headline-writing"
   - "image-briefing"
+  - "caption-generator"
   - "language-polish"
 execution:
   - skill: "content-briefing"
@@ -68,6 +71,20 @@ execution:
     context:
       brand_guidelines: "No specific brand guidelines"
       audience_profile: "General professional audience"
+  - skill: "caption-generator"
+    prompt: "caption-writer"
+    step_type: "generation"
+    output: { name: "captions", type: "text" }
+    context:
+      target_platforms: "LinkedIn, Twitter/X, Instagram, Facebook"
+      campaign_topic: "Multi-platform social campaign"
+    bindings:
+      repurposed_content:
+        from_step: "Content Repurposing"
+        field: output
+      brief:
+        from_step: "Content Briefing"
+        field: output
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
@@ -75,6 +92,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Caption Generator"
+        field: output
 ---
 
 ## Overview

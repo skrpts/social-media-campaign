@@ -17,6 +17,15 @@ inputs:
     example: "Product launch for new AI features"
     required: true
     type: text
+context_params:
+  repurposed_content:
+    label: "Repurposed Content"
+    description: "Platform-specific content — the source for the visual descriptions captions are written against."
+    required: false
+  brief:
+    label: "Campaign Brief"
+    description: "Campaign brief providing the voice and messaging guidelines to keep captions on-tone."
+    required: false
 connections:
   - target: headline-writing
     type: derived_from
@@ -45,10 +54,10 @@ Provide three caption options for each piece of visual content, varying in tone:
 
 ### Inputs
 
-- **Visual content description:** Using the visual content descriptions from the generated posts: {{steps.Content Repurposing.output}}
+- **Visual content description:** Using the visual content descriptions from the generated posts: {{step.context.repurposed_content}}
 - **Platform:** {{input.target_platforms}}
 - **Campaign context:** {{input.campaign_topic}}
-- **Brand voice notes:** Maintain consistency with the campaign brief's tone and messaging guidelines from: {{steps.Content Briefing.output}}
+- **Brand voice notes:** Maintain consistency with the campaign brief's tone and messaging guidelines from: {{step.context.brief}}
 
 ## Formatting Rules
 

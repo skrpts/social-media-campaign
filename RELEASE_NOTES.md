@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.31
+GH#863 (K-045 intent/output-mismatch) — wire the `caption-writer` prompt into the workflow so the promised captions deliverable is actually produced. Adds a backing `caption-generator` skill (title-addressable for `from_step`), inserts caption generation as the terminal content step (bound to Content Repurposing + Content Briefing), and re-points language-polish's `source` to the caption output. Converts caption-writer's positional `{{steps.*.output}}` refs to `context_params` + `{{step.context.*}}` bindings. Re-pins `polish-language` to v1.0.6.
+
 ## v1.1.30
 GH#845 — republish with American English (en-US) content, completing the source-only GH#805 flip that never reached the Hub. Copy only — no functional or behaviour change.
 
